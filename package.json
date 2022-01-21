@@ -1,0 +1,30 @@
+{
+  "name": "ts-solid-principles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "srp": "ts-node-dev --respawn --transpile-only ./src/00-single-responsibility-principle/index.ts",
+    "ocp": "ts-node-dev --respawn --transpile-only ./src/01-open-closed-principle/index.ts",
+    "lsp": "ts-node-dev --respawn --transpile-only ./src/02-liskov-substitution-principle/index.ts",
+    "isp": "ts-node-dev --respawn --transpile-only ./src/03-interface-segregation-principle/index.ts",
+    "dip": "ts-node-dev --respawn --transpile-only ./src/04-dependency-inversion-principle/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chhollerveger/ts-solid-principles.git"
+  },
+  "keywords": [],
+  "author": "Carlos Henrique Hollerveger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chhollerveger/ts-solid-principles/issues"
+  },
+  "homepage": "https://github.com/chhollerveger/ts-solid-principles#readme"
+}
